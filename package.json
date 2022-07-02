@@ -1,0 +1,30 @@
+{
+  "name": "instagram-profile-pictures",
+  "version": "1.0.0",
+  "description": "Fetch full size Instagram profile pictures",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node testing/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maorgershman/Instagram-Profile-Pictures.git"
+  },
+  "keywords": [
+    "instagram"
+  ],
+  "author": "Maor Gershman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maorgershman/Instagram-Profile-Pictures/issues"
+  },
+  "homepage": "https://github.com/maorgershman/Instagram-Profile-Pictures#readme",
+  "dependencies": {
+    "@types/sqlite3": "^3.1.8",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.7",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  }
+}
